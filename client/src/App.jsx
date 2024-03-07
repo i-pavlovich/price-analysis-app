@@ -1,7 +1,8 @@
-import { useState } from "react"
+import Login from "./components/Login"
+import Register from "./components/Register"
 
 function App() {
-  return <div className="text-3xl font-bold underline">Hello</div>
+  return <Login />
 }
 
 export default App
